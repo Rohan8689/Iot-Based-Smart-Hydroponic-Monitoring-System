@@ -3,7 +3,6 @@
 #include <SoftwareSerial.h>
 #define ph_sensor A0
 #define DHTPIN 7
-#define TdsSensorPin A1
 #define DHTTYPE DHT11
 LiquidCrystal_I2C lcd1(0x26, 16, 2);  // I2C address 0x27 (from DIYables LCD), 16 column and 2 rows
 LiquidCrystal_I2C lcd2(0x27, 16, 2);
